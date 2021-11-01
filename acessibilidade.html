@@ -8,6 +8,20 @@
 
     <title>Acessibilidade</title>
 
+    <style>
+
+        .nav-link{
+            color: inherit !important;
+            font-weight: 600;
+        }
+        .nav-link.active{
+            color: inherit !important;
+            background-color: rgb(218, 210, 252) !important;
+        }
+        
+       
+    </style>
+
     
 </head>
 <body>
@@ -15,8 +29,8 @@
     
     <div class="container-fluid d-flex">
 
-        <div class="col-2 p-3">
-            <nav class="nav flex-column nav-pills me-3 py-4 sticky-top " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <div class="col-2 py-3">
+            <nav class="nav flex-column nav-pills ms-0 py-4 sticky-top" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <li class="nav-link active" id="introducao-tab" data-bs-toggle="pill" data-bs-target="#introducao" type="button" role="tab" aria-controls="introducao" aria-selected="true">Introdução</li>
                     <li class="nav-link" id="estruturas-tab" data-bs-toggle="pill" data-bs-target="#estruturas" type="button" role="tab" aria-controls="estruturas" aria-selected="false">Estruturas</li>
                     <li class="nav-link" id="cores-tab" data-bs-toggle="pill" data-bs-target="#cores" type="button" role="tab" aria-controls="cores" aria-selected="false">Cores</li>
@@ -27,15 +41,15 @@
             </nav>
         </div>
     
-        <main class="col-10 vh-100">
-            <div class="tab-content p-3" id="v-pills-tabContent ">
-                <section id="introducao" class="tab-pane fade show active "  role="tabpanel" aria-labelledby="introducao-tab">     
+        <main class="col-10 vh-100 ">
+            <div class="tab-content p-3 ms-1 border-start" id="v-pills-tabContent ">
 
+                <section id="introducao" class="tab-pane fade show active "  role="tabpanel" aria-labelledby="introducao-tab">     
                     <div class="d-flex"> 
-                        <article class="content col-10 p-3">
+                        <article class="content col-md-12 col-lg-10 p-3">
                             <div class="mb-5 ">
                                 <h1>Introdução</h1>
-                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <p class="fw-light fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
                             </div>
     
                             <div class="mb-5">
@@ -78,33 +92,33 @@
                             </div>
                         </article>
     
-                        <aside class="tab-navigation col-2">
+                        <aside class="tab-navigation d-none d-lg-block col-lg-2">
                             <div class="sticky-top py-4">
                                 <p class="fw-bold">Nesta página</p>
                                 <hr>
                                 <nav>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item p-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="#teste1">Teste 1</a>
                                             </small>
                                         </li>
-                                        <li class="list-group-item ps-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="#teste2">Teste 2</a>
                                             </small>
                                         </li>
-                                        <li class="list-group-item ps-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small> 
                                                 <a class="text-decoration-none text-secondary" href="#teste3">Teste 3</a>
                                             </small>
                                         </li>
-                                        <li class="list-group-item ps-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="#teste4">Teste 4</a>
                                             </small>
                                         </li>
-                                        <li class="list-group-item ps-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="">Teste 5</a>
                                             </small>
@@ -119,9 +133,8 @@
                 </section>
 
                 <section id="estruturas" class="tab-pane fade "  role="tabpanel" aria-labelledby="estruturas-tab">          
-                    
                     <div class="d-flex">
-                        <article class="content col-10 p-3">
+                        <article class="content col-md-12 col-lg-10 p-3">
                             <div class="mb-5">
                                 <h1>Estruturas</h1>
                                 <p class="fw-light fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
@@ -167,33 +180,33 @@
                             </div>
                         </article>
     
-                        <aside class="tab-navigation col-2">
+                        <aside class="tab-navigation d-none d-lg-block col-lg-2">
                             <div class="sticky-top py-4">
                                 <p class="fw-bold">Nesta página</p>
                                 <hr>
                                 <nav>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item p-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="#html-semantico">HTML semântico</a>
                                             </small>
                                         </li>
-                                        <li class="list-group-item ps-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="#teste2">Teste 2</a>
                                             </small>
                                         </li>
-                                        <li class="list-group-item ps-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="#teste3">Teste 3</a>
                                             </small>
                                         </li>
-                                        <li class="list-group-item ps-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="#teste4">Teste 4</a>
                                             </small>
                                         </li>
-                                        <li class="list-group-item ps-0">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
                                                 <a class="text-decoration-none text-secondary" href="">Teste 5</a>
                                             </small>
@@ -207,19 +220,356 @@
 
                 </section>
 
-                <section id="cores" class="tab-pane fade"  role="tabpanel" aria-labelledby="cores-tab">
-                    <h1>Cores</h1>
-                    <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>              
+                <section id="cores" class="tab-pane fade "  role="tabpanel" aria-labelledby="cores-tab">          
+                    <div class="d-flex">
+                        <article class="content col-md-12 col-lg-10 p-3">
+                            <div class="mb-5">
+                                <h1>Cores</h1>
+                                <p class="fw-light fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5">
+                                <h2 id="html-semantico">HTML Semântico</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5">
+                                <h2 id="teste2">Teste2</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+    
+                            <div class="mb-5">
+                                <h2 id="teste3">Teste 3</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5 ">
+                                <h2 id="teste4">Teste 4</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+                        </article>
+    
+                        <aside class="tab-navigation d-none d-lg-block col-lg-2">
+                            <div class="sticky-top py-4">
+                                <p class="fw-bold">Nesta página</p>
+                                <hr>
+                                <nav>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#html-semantico">HTML semântico</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste2">Teste 2</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste3">Teste 3</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste4">Teste 4</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="">Teste 5</a>
+                                            </small>
+                                        </li>
+                                  </ul>
+            
+                                </nav>
+                            </div>               
+                        </aside>
+                    </div>
+
                 </section>
 
-                <section id="tipografia" class="tab-pane fade"  role="tabpanel" aria-labelledby="tipografia-tab">
-                    <h1>Tipografia</h1>
-                    <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                <section id="tipografia" class="tab-pane fade "  role="tabpanel" aria-labelledby="tipografia-tab">          
+                    <div class="d-flex">
+                        <article class="content col-md-12 col-lg-10 p-3">
+                            <div class="mb-5">
+                                <h1>Tipografia</h1>
+                                <p class="fw-light fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5">
+                                <h2 id="html-semantico">HTML Semântico</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5">
+                                <h2 id="teste2">Teste2</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+    
+                            <div class="mb-5">
+                                <h2 id="teste3">Teste 3</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5 ">
+                                <h2 id="teste4">Teste 4</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+                        </article>
+    
+                        <aside class="tab-navigation d-none d-lg-block col-lg-2">
+                            <div class="sticky-top py-4">
+                                <p class="fw-bold">Nesta página</p>
+                                <hr>
+                                <nav>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#html-semantico">HTML semântico</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste2">Teste 2</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste3">Teste 3</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste4">Teste 4</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="">Teste 5</a>
+                                            </small>
+                                        </li>
+                                  </ul>
+            
+                                </nav>
+                            </div>               
+                        </aside>
+                    </div>
+
                 </section>
 
-                <section id="imagens" class="tab-pane fade"  role="tabpanel" aria-labelledby="imagens-tab">
-                    <h1>Imagens</h1>
-                    <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                <section id="imagens" class="tab-pane fade "  role="tabpanel" aria-labelledby="imagens-tab">          
+                    <div class="d-flex">
+                        <article class="content col-md-12 col-lg-10 p-3">
+                            <div class="mb-5">
+                                <h1>Imagens</h1>
+                                <p class="fw-light fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5">
+                                <h2 id="html-semantico">HTML Semântico</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5">
+                                <h2 id="teste2">Teste2</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+    
+                            <div class="mb-5">
+                                <h2 id="teste3">Teste 3</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5 ">
+                                <h2 id="teste4">Teste 4</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+                        </article>
+    
+                        <aside class="tab-navigation d-none d-lg-block col-lg-2">
+                            <div class="sticky-top py-4">
+                                <p class="fw-bold">Nesta página</p>
+                                <hr>
+                                <nav>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#html-semantico">HTML semântico</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste2">Teste 2</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste3">Teste 3</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste4">Teste 4</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="">Teste 5</a>
+                                            </small>
+                                        </li>
+                                  </ul>
+            
+                                </nav>
+                            </div>               
+                        </aside>
+                    </div>
+
+                </section>
+
+                <section id="extras" class="tab-pane fade "  role="tabpanel" aria-labelledby="extras-tab">          
+                    <div class="d-flex">
+                        <article class="content col-md-12 col-lg-10 p-3">
+                            <div class="mb-5">
+                                <h1>Extras</h1>
+                                <p class="fw-light fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5">
+                                <h2 id="html-semantico">HTML Semântico</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5">
+                                <h2 id="teste2">Teste2</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+    
+                            <div class="mb-5">
+                                <h2 id="teste3">Teste 3</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+    
+                            <div class="mb-5 ">
+                                <h2 id="teste4">Teste 4</h2>
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+    
+    
+                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                            </div>
+                        </article>
+    
+                        <aside class="tab-navigation d-none d-lg-block col-lg-2">
+                            <div class="sticky-top py-4">
+                                <p class="fw-bold">Nesta página</p>
+                                <hr>
+                                <nav>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#html-semantico">HTML semântico</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste2">Teste 2</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste3">Teste 3</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="#teste4">Teste 4</a>
+                                            </small>
+                                        </li>
+                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
+                                            <small>
+                                                <a class="text-decoration-none text-secondary" href="">Teste 5</a>
+                                            </small>
+                                        </li>
+                                  </ul>
+            
+                                </nav>
+                            </div>               
+                        </aside>
+                    </div>
+
                 </section>
 
                 
