@@ -1,0 +1,32 @@
+/* ****************** inicio estilizações lucas ****************** */
+
+/* estilizacoes pag. acessibilidade */
+button.nav-link{
+    color: inherit !important;
+    font-weight: 600;
+}
+button.nav-link.active{
+    color: inherit !important;
+    background-color: rgb(218, 210, 252) !important;
+}
+
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+@media (max-width: 768px) {
+    div.tab-content{
+        border: none !important;           
+    }
+}
+
+/* estilizacoes header */
+.dropdown-menu[data-bs-popper]{
+    top: 60px;
+    left: inherit !important;
+}
+
+
+/* **************** fim estilizações lucas ************************ */
