@@ -28,5 +28,9 @@ ul{
     left: inherit !important;
 }
 
+#ocultar{
+    left: -9999px;
+}
+
 
 /* **************** fim estilizações lucas ************************ */
