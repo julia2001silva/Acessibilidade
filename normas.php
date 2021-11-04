@@ -15,12 +15,13 @@
 
 <body>
     
-    <nav class="navbar navbar-dark bg-primary">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Acessibilidade</span>
-
-    </div>
-  </nav>
+<div class="container-fluid">
+    <nav>
+      <div class="row">
+        <?php include('includes/nav.php'); ?>
+      </div>
+    </nav>
+  </div>
 <br>
     <div class="container">
         <div class="row">

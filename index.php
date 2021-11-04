@@ -10,15 +10,17 @@
 
 <body>
 
+<div class="container-fluid">
+    <nav>
+      <div class="row">
+        <?php include('includes/nav.php'); ?>
+      </div>
+    </nav>
+  </div>
+
+
+
   <script type="text/javascript" src="bootstrap.min.js"></script>
-
-  <nav class="navbar navbar-dark bg-primary">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Acessibilidade</span>
-
-    </div>
-  </nav>
-
     
     <header>
   <img src="image/banner.png" class=" img-fluid " alt="acessibilidade" />

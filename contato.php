@@ -14,14 +14,16 @@
 </head>
 
 <body>
+
+<div class="container-fluid">
+    <nav>
+      <div class="row">
+        <?php include('includes/nav.php'); ?>
+      </div>
+    </nav>
+  </div>
     
-    <nav class="navbar navbar-dark bg-primary">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Acessibilidade</span>
-
-    </div>
-  </nav>
-
+  
     
     <header class="container">
                     <h1>CONTATO</h1>

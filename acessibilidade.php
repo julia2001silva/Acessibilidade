@@ -13,6 +13,13 @@
 </head>
 <body>
 
+<div class="container-fluid">
+    <nav>
+      <div class="row">
+        <?php include('includes/nav.php'); ?>
+      </div>
+    </nav>
+  </div>
     
     <div class="container-fluid d-flex flex-sm-column flex-md-row flex-lg-row">
 
