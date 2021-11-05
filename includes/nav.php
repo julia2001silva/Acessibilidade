@@ -1,6 +1,8 @@
 <?php $page = basename($_SERVER['PHP_SELF']) ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-primary p-3">
 
+  
+<a class="navbar-brand" href="#"> <img class="img-fluid rounded mx-auto d-block" src="image/logo.png" alt=""   width="60"></a>
             <a class="navbar-brand" href="#">Acessibilidade</a>
           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navHeader"
