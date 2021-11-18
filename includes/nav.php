@@ -17,18 +17,9 @@
                   <a class="nav-link" href="index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" href="acessibilidade.php" role="button" id="dropdownAcessibilidade" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="acessibilidade.php">
                       Acessibilidade
                     </a>
-                  
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Introdução</a></li>
-                      <li><a class="dropdown-item" href="#">Estruturas</a></li>
-                      <li><a class="dropdown-item" href="#">Cores</a></li>
-                      <li><a class="dropdown-item" href="#">Tipografia</a></li>
-                      <li><a class="dropdown-item" href="#">Imagens</a></li>
-                      <li><a class="dropdown-item" href="#">Extras</a></li>
-                    </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="quemsomos.php">Sobre</a>
