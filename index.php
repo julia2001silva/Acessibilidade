@@ -30,13 +30,44 @@
 
   <main>
     <article>
-
       <div class="container">
-        
-        <div class="card card border-secondary mb-3 mt-5">
+        <div class="row mt-3 g-4">
+          <aside class="col-xl-4 col-md-4 col-sm-12">
+            <div class="card text-white bg-primary mb-3" style="max-width: 22rem;">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Primary card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-xl-4 col-md-4 col-sm-12">
+            <div class="card text-dark bg-info mb-3" style="max-width: 22rem;">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Info card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-xl-4 col-md-4 col-sm-12">
+            <div class="card text-dark bg-warning mb-3" style="max-width: 22rem;">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Warning card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </aside>
+
+
+        </div>
+        <div class="card text-center card border-secondary mt-3">
           <div class="card-header">
+            A importancia da acessibilidade na Web
           </div>
           <div class="card-body">
+            <h5 class="card-title"> Deixe seu site acessivel !</h5>
             <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco laboris
               nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -68,31 +99,47 @@
                 laborum. "
               </p>
             </div>
-
           </div>
         </div>
 
-        <br><br>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card card border-secondary mb-3">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. </p>
-                <button type="button" class="btn btn-outline-info">Ler mais</button>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button type="button" class="btn btn-secondary btn-sm">Small button</button>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="card card border-secondary mb-3">
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. </p>
-                <button type="button" class="btn btn-outline-info">Ler mais</button>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button type="button" class="btn btn-secondary btn-sm">Small button</button>
               </div>
             </div>
           </div>
@@ -102,7 +149,7 @@
     </article>
   </main>
 
-  <footer class=" navbar navbar-dark bg-general">
+  <footer class=" mt-3 navbar navbar-dark bg-general">
 
     <div class="container">
       <div class="row">

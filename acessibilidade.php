@@ -76,7 +76,7 @@
                             <div class="mb-5">
                                 <h2 id="item1-introducao">O Que é Um Website Acessível?</h2>
                                 <p>
-                                    A acessibilidade na web é a solução que permite a qualquer pessoa navegar entender, perceber e   interagir com o conteúdo de forma eficaz ao utilizá-lo.
+                                    A acessibilidade na web é a solução que permite a qualquer pessoa navegar entender, perceber e interagir com o conteúdo de forma eficaz ao utilizá-lo.
                                     Um website acessível beneficia pessoas com qualquer tipo de deficiência, bem como pessoas idosas ou com conexões lentas, por exemplo. Uma web acessivel permite com que pessoas com alguma deficiência nao só utilize, mas tambem contribuam com a web.
                                 </p>
                             </div>
