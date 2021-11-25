@@ -78,6 +78,6 @@
 
 
 <div class="row">
-    <small class="text-center text-white p-3" style="background-color: #4a4c4d;">© 2020 Copyright: Abelinhas Rebeldes</small>
+    <small class="text-center text-white p-3">© 2020 Copyright: Abelinhas Rebeldes</small>
 
 </div>

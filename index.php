@@ -12,7 +12,7 @@
 
 <body>
 
-<div class="container-fluid">
+  <div class="container-fluid">
     <nav>
       <div class="row">
         <?php include('includes/nav.php'); ?>
@@ -23,86 +23,86 @@
 
 
   <script type="text/javascript" src="bootstrap.min.js"></script>
-    
-    <header>
-  <img src="image/banner.png" class=" img-fluid " alt="acessibilidade" />
-    </header>
 
-    <main>
-  <article>
-    
-    <div class="container">
-      <br><br>
-      <div class="card card border-secondary mb-3">
-        <div class="card-header">
-        </div>
-        <div class="card-body">
-          <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
+  <header>
+    <img src="image/banner.png" class=" img-fluid " alt="acessibilidade" />
+  </header>
 
-          </p>
-          <div class="row">
-            <p class="col-xl-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum. "
-            </p>
+  <main>
+    <article>
 
-            <p class="col-xl-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum. "
-            </p>
+      <div class="container">
+        
+        <div class="card card border-secondary mb-3 mt-5">
+          <div class="card-header">
           </div>
+          <div class="card-body">
+            <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
 
-
-          <div class="row">
-            <p class="col-xl-12">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum. "
             </p>
-          </div>
-
-        </div>
-      </div>
-
-      <br><br>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card card border-secondary mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <div class="row">
+              <p class="col-xl-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. </p>
-              <button type="button" class="btn btn-outline-info">Ler mais</button>
+                laboris nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum. "
+              </p>
+
+              <p class="col-xl-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum. "
+              </p>
+            </div>
+
+
+            <div class="row">
+              <p class="col-xl-12">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum. "
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <br><br>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card card border-secondary mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <button type="button" class="btn btn-outline-info">Ler mais</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card card border-secondary mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <button type="button" class="btn btn-outline-info">Ler mais</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="card card border-secondary mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercício ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. </p>
-              <button type="button" class="btn btn-outline-info">Ler mais</button>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
 
-  </article>
-    </main>
+    </article>
+  </main>
 
-  <footer class=" navbar navbar-dark bg-primary">
+  <footer class=" navbar navbar-dark bg-general">
 
     <div class="container">
       <div class="row">
@@ -111,8 +111,7 @@
     </div>
   </footer>
 
-  <script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
 </body>
 

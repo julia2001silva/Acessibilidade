@@ -1,5 +1,20 @@
 /* ****************** inicio estilizações lucas ****************** */
 
+/* *********** estilizaçoes gerais ************** */
+.bg-general{
+    background-color: #212737 !important;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.nav-link:focus,
+.nav-link:hover{
+    border: 1px solid #fff !important;
+    border-radius: 3px !important;
+}
+
 /* estilizacoes pag. acessibilidade */
 button.nav-link{
     color: inherit !important;
