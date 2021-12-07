@@ -15,18 +15,17 @@
 
 <body>
 
-    <div class="container-fluid">
+    <header class="container-fluid">
         <nav>
             <div class="row">
                 <?php include('includes/nav.php'); ?>
             </div>
         </nav>
-    </div>
+    </header>
 
-    <div class="container-fluid d-flex flex-sm-column flex-md-row flex-lg-row">
+    <div class="content-acessibilidade container-fluid d-flex flex-sm-column flex-md-row flex-lg-row flex-wrap">
 
         <div class="col-sm-12 col-md-2 col-lg-2 py-3">
-
             <nav class="navbar navbar-expand-md navbar-light sticky-top px-1">
                 <div class="container-fluid px-0">
                     <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +57,7 @@
         </div>
 
         <main class="col-sm-12 col-md-10 col-lg-10 vh-100 ">
-            <div class="tab-content p-0 p-md-3 ms-1 border-start" id="pills-tabContent">
+            <div class="tab-content position-relative p-0 p-md-3 ms-1 border-start" id="pills-tabContent">
 
                 <section id="pills-introducao" class="tab-pane fade show active " role="tabpanel" aria-labelledby="pills-introducao-tab">
                     <div class="d-flex">
@@ -589,11 +588,25 @@
 
 
             </div>
+            
 
 
         </main>
 
+        
+        
+
     </div>
+
+    <footer class="col-12">
+        <?php include('includes/footer.php'); ?>
+    </footer>
+
+    
+
+    
+
+    
 
 
 

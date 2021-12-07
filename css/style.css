@@ -1,3 +1,5 @@
+
+
 /* ****************** inicio estilizações lucas ****************** */
 
 /* *********** estilizaçoes gerais ************** */
@@ -31,11 +33,14 @@ ul{
 
 }
 
+
 @media (max-width: 768px) {
     div.tab-content{
         border: none !important;           
     }
 }
+
+
 
 /* estilizacoes header */
 .dropdown-menu[data-bs-popper]{
@@ -45,6 +50,11 @@ ul{
 
 #ocultar{
     left: -9999px;
+}
+
+.content-acessibilidade{
+    overflow-y: scroll !important;
+    max-height: 100vh;
 }
 
 
