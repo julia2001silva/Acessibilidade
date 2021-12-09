@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;700&family=M+PLUS+1+Code:wght@300;400;700&family=Montserrat:wght@200;400;500;700&family=Poppins:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+
 
     <title>Acessibilidade</title>
 
@@ -311,7 +315,7 @@
                             <div class="mb-5">
                                 <h2 id="item2-cores">Propriedades das cores</h2>
                                 <p>Entendemos Matiz, como a propriedade da cor que classifica e distingue uma cor de outra. Ou seja, vermelho que é diferente de azul, que é diferente de verde.
-Vermelho, azul e verde são termos que classificam e distinguem um Matiz dos outros.</p>
+                                    Vermelho, azul e verde são termos que classificam e distinguem um Matiz dos outros.</p>
 
                                 <div class="col-12 d-flex justify-content-center my-3">
                                     <img class="img-fluid" src="./image/matiz.png" alt="amostra de matiz com varias cores">
@@ -384,52 +388,35 @@ Vermelho, azul e verde são termos que classificam e distinguem um Matiz dos out
                         <article id="content3" class="content col-md-12 col-lg-10 p-3">
                             <div class="mb-5">
                                 <h1>Tipografia</h1>
-                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <p class="fw-light fs-5">Confira aqui as melhores dicas sobre tipografia para deixar o seu site mais acessivel agora mesmo.</p>
                             </div>
 
                             <div class="mb-5">
-                                <h2 id="html-semantico">HTML Semântico</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <h2 id="item1-tipografia">Tipos de fonte e acessibilidade digital</h2>
+                                <p>É muito comum falar em descrição de imagens, legenda para vídeos e suporte para teclado quando o assunto é acessibilidade digital. No entanto, uma questão igualmente importante para a acessibilidade é a escolha da fonte. Mas quais tipos de fonte são mais indicados? E que fatores tornam uma fonte mais ou menos acessível?</p>
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <p>Para conteúdo digital, as fontes sem serifa são consideradas mais acessíveis. Uma fonte sem serifa é aquela que não possui prolongamentos nos caracteres, ou seja, são mais limpas e facilitam a distinção entre os caracteres. Já as fontes serifadas podem dificultar a leitura para quem tem baixa visão, devido aos prolongamentos, que podem dar a impressão de que um caractere está unido ao outro.</p>
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <p>Outro fator importante para a legibilidade de um tipo de fonte é a existência ou não de caracteres ambíguos. Em alguns tipos de fonte, caracteres como o “I” (i maiúsculo) e a consoante “l” podem ser iguais, causando confusão. O mesmo ocorre com a letra “O” e o número zero (0). Em uma fonte com bom nível de acessibilidade deve ser possível distinguir facilmente os caracteres.</p>
+                                <p>Após escolher as fontes a serem utilizadas, é importante manter um padrão ao longo das páginas de um mesmo site, procurando, ainda, não utilizar muitos tipos de fonte em um mesmo site. O ideal é escolher uma fonte para título e outra para conteúdo e mantê-los em todas as páginas.</p>
+
                             </div>
                             <a class="get-content" href="#nav-topicos-tipografia">navegar entre os tópicos da página</a>
 
 
                             <div class="mb-5">
-                                <h2 id="teste2">Teste2</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <h2 id="item2-tipografia">Legibilidade</h2>
+                                <p>Você percebe os espaços em branco neste texto? Eles contribuem para a legibilidade do conteúdo, juntamente com o tamanho e a cor da fonte, a hierarquia das informações e o próprio background do site. Se as palavras estivessem todas amontoadas e as frases muito juntas seria muito difícil ler, assim como se o background fosse preto e o texto em escala de cinza. A leitura ficaria difícil né? Portanto, além de escolher boas fontes web, também é fundamental se preocupar com a legibilidade das informações.</p>
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
                             </div>
                             <a class="get-content" href="#nav-topicos-tipografia">navegar entre os tópicos da página</a>
 
 
 
                             <div class="mb-5">
-                                <h2 id="teste3">Teste 3</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-
-
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-
-
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-                            </div>
-                            <a class="get-content" href="#nav-topicos-tipografia">navegar entre os tópicos da página</a>
-
-
-                            <div>
-                                <h2 id="teste4">Teste 4</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-
-
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-
-
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <h2 id="item3-tipografia">Fontes responsivas</h2>
+                                <p>O desenvolvimento de sites teve que se adaptar aos diversos tamanhos de telas e as fontes web seguiram o mesmo caminho. A procura por fontes web responsivas aumentou muito, afinal todos querem um site com design que funcione perfeitamente em qualquer dispositivo. Durante muito tempo programar essa adaptação de fonte dava um certo trabalho, mas agora ficou mais simples.</p>
+                                <p>Afinal, como funciona na prática? Existem códigos que fazem o dimensionamento automático das fontes web, basta que o desenvolvedor informe na linguagem de programação um tamanho mínimo e máximo para exibição da fonte e ela se adapta conforme o navegador.</p>
                             </div>
                             <a class="get-content" href="#nav-topicos-tipografia">navegar entre os tópicos da página</a>
 
@@ -445,27 +432,17 @@ Vermelho, azul e verde são termos que classificam e distinguem um Matiz dos out
                                     <ul class="list-group list-group-flush" title="navegar pelo conteudo da guia tipografia">
                                         <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
-                                                <a class="text-decoration-none text-secondary" href="#html-semantico">HTML semântico</a>
+                                                <a class="text-decoration-none text-secondary" href="#item1-tipografia">Tipos de fonte e acessibilidade digital</a>
                                             </small>
                                         </li>
                                         <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
-                                                <a class="text-decoration-none text-secondary" href="#teste2">Teste 2</a>
+                                                <a class="text-decoration-none text-secondary" href="#item2-tipografia">Legibilidade</a>
                                             </small>
                                         </li>
                                         <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
-                                                <a class="text-decoration-none text-secondary" href="#teste3">Teste 3</a>
-                                            </small>
-                                        </li>
-                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
-                                            <small>
-                                                <a class="text-decoration-none text-secondary" href="#teste4">Teste 4</a>
-                                            </small>
-                                        </li>
-                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
-                                            <small>
-                                                <a class="text-decoration-none text-secondary" href="">Teste 5</a>
+                                                <a class="text-decoration-none text-secondary" href="#item3-tipografia">Fontes responsivas</a>
                                             </small>
                                         </li>
                                     </ul>
@@ -482,52 +459,25 @@ Vermelho, azul e verde são termos que classificam e distinguem um Matiz dos out
                         <article id="content4" class="content col-md-12 col-lg-10 p-3">
                             <div class="mb-5">
                                 <h1>Imagens</h1>
-                                <p class="fw-light fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <p class="fw-light fs-5">Confira aqui as melhores dicas para trabalhar acessibilidade em imagens em seu site agora mesmo.</p>
                             </div>
 
                             <div class="mb-5">
-                                <h2 id="html-semantico">HTML Semântico</h2>
-                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <h2 id="item1-imagens">Descrição de imagens</h2>
+                                <p>O alt text descreve não apenas o conteúdo da imagem, mas também seu contexto. Muitas vezes confundido com a alt tag, o alt text é, na verdade, parte do código HTML, mas é apenas a descrição da imagem contida na alt tag e não todo o atributo. </p>
 
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <p>O significado do alt text vem do texto alternativo, e você pode já ter se deparado com isso antes, se já teve imagens em uma página que não carregam corretamente. Alt text é o texto escrito exibido no lugar dessas imagens.</p>
 
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <p>Adicionar alt text às imagens é uma das melhores práticas utilizadas pelos profissionais de SEO para otimizar imagens para a web.</p>
                             </div>
                             <a class="get-content" href="#nav-topicos-imagens">navegar entre os tópicos da página</a>
 
 
                             <div class="mb-5">
-                                <h2 id="teste2">Teste2</h2>
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <h2 id="item2-imagens">Características das imagens para acessibilidade</h2>
+                                <p>Uma imagem voltada para acessibilidade deve conter poucos elementos, com um bom trabalho nas cores, e com o conteúdo em um tamanho que possa ser bem vizualizado em dispositivos menores. Não é aconselhado imagens com textos, ou descrições da imagens dentro dela própria. Uma melhor alternativa seria colocar essas informações em um texto alternativo. </p>
 
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-                            </div>
-                            <a class="get-content" href="#nav-topicos-imagens">navegar entre os tópicos da página</a>
-
-
-
-                            <div class="mb-5">
-                                <h2 id="teste3">Teste 3</h2>
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-
-
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-
-
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-                            </div>
-                            <a class="get-content" href="#nav-topicos-imagens">navegar entre os tópicos da página</a>
-
-
-                            <div>
-                                <h2 id="teste4">Teste 4</h2>
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-
-
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
-
-
-                                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore maxime laboriosam neque totam voluptatibus incidunt delectus porro corrupti quis eius, odit ipsum nesciunt, sapiente numquam! Impedit qui debitis autem animi doloribus neque voluptas maxime dolores sapiente, laudantium provident nihil commodi eos tempora ea? Id laudantium velit alias quisquam nesciunt.</p>
                             </div>
                             <a class="get-content" href="#nav-topicos-imagens">navegar entre os tópicos da página</a>
 
@@ -543,27 +493,12 @@ Vermelho, azul e verde são termos que classificam e distinguem um Matiz dos out
                                     <ul class="list-group list-group-flush" title="navegar pelo conteudo da guia imagens">
                                         <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
-                                                <a class="text-decoration-none text-secondary" href="#html-semantico">HTML semântico</a>
+                                                <a class="text-decoration-none text-secondary" href="#item1-imagens">Descrição de imagens</a>
                                             </small>
                                         </li>
                                         <li class="list-group-item border-bottom-0 ps-0 pt-0">
                                             <small>
-                                                <a class="text-decoration-none text-secondary" href="#teste2">Teste 2</a>
-                                            </small>
-                                        </li>
-                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
-                                            <small>
-                                                <a class="text-decoration-none text-secondary" href="#teste3">Teste 3</a>
-                                            </small>
-                                        </li>
-                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
-                                            <small>
-                                                <a class="text-decoration-none text-secondary" href="#teste4">Teste 4</a>
-                                            </small>
-                                        </li>
-                                        <li class="list-group-item border-bottom-0 ps-0 pt-0">
-                                            <small>
-                                                <a class="text-decoration-none text-secondary" href="">Teste 5</a>
+                                                <a class="text-decoration-none text-secondary" href="#item2-imagens">Características das imagens para acessibilidade</a>
                                             </small>
                                         </li>
                                     </ul>
@@ -585,15 +520,6 @@ Vermelho, azul e verde são termos que classificam e distinguem um Matiz dos out
     <footer class="col-12">
         <?php include('includes/footer.php'); ?>
     </footer>
-
-
-
-
-
-
-
-
-
 
 
 

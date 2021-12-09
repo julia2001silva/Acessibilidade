@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width-device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https: //fonts.googleapis.com/css2? family = Libre + Franklin: wght @ 200 & family = Montserrat: ital, wght @ 1.200 &família = Aberto + Sans: wght @ 300 & display = swap"
-  rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;700&family=M+PLUS+1+Code:wght@300;400;700&family=Montserrat:wght@200;400;500;700&family=Poppins:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+  
   <!-------------------css-------------------->
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <!------------------bootstrap----------------->
@@ -42,7 +42,7 @@
       <div class="container">
         <div class="row mt-3 g-4">
           <aside class="col-xl-4 col-md-4 col-sm-12">
-            <div class="card text-white bg-primary" id="cardum">
+            <div class="card text-white card-1">
               <div class="card-body">
                 <h5 class="card-title"> Dica 1</h5>
                 <p class="card-text">É muito importante que seu site seja acessivel para que pessoas com deficiência
@@ -51,7 +51,7 @@
             </div>
           </aside>
           <aside class="col-xl-4 col-md-4 col-sm-12">
-            <div class="text-dark bg-info" id="carddois">
+            <div class="text-white card-2" >
               <div class="card-body">
                 <h5 class="card-title">Dica 2</h5>
                 <p class="card-text">Quando você se preocupa com a acessibilidade do seu site, você demonstra que tem
@@ -60,7 +60,7 @@
             </div>
           </aside>
           <aside class="col-xl-4 col-md-4 col-sm-12">
-            <div class="card text-white bg-warning" id="cardtres">
+            <div class="card text-white card-3">
               <div class="card-body">
                 <h5 class="card-title">Dica 3</h5>
                 <p class="card-text">A acessibilidade é um diferencial grande no mercado, quando seu site é acessivel,
@@ -76,7 +76,7 @@
         <div class="card text-center card border-secondary mt-3">
           <div class="card-header">
           </div>
-          <div class="card-body">
+          <div class="card-body justify">
             <h5 class="card-title"> Deixe seu site acessivel</h5>
             <p class="card-text">Quando um site não está acessível, milhões de usuários são impedidos de consumir
               informação, de realizar compras e, até mesmo, de se comunicar com outras pessoas. Ou seja, é sinônimo de

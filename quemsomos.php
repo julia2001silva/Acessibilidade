@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https: //fonts.googleapis.com/css2? family = Libre + Franklin: wght @ 200 & family = Montserrat: ital, wght @ 1.200 &família = Aberto + Sans: wght @ 300 & display = swap"
-  rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;700&family=M+PLUS+1+Code:wght@300;400;700&family=Montserrat:wght@200;400;500;700&family=Poppins:wght@300;400;500;600;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -54,7 +53,7 @@
               <img src="image/julia.jpg" class="img-fluid" alt="Foto de Julia umas das desenvolvedoras do site">
             </div>
             <div class="card-footer">
-              <a href="https://www.facebook.com/profile.php?id=100055771643749" title="Ir para o perfil do facebook de Julia">
+              <a class="text-decoration-none" href="https://www.facebook.com/profile.php?id=100055771643749" title="Ir para o perfil do facebook de Julia">
                 <svg 
                   alt="perfil do facebook de Julia"
                   xmlns="http://www.w3.org/2000/svg" 
@@ -68,7 +67,7 @@
                 </svg> 
               </a>
                 
-              <a href="https://www.linkedin.com/in/julia-alves-da-silva-3865841b4/" title="Ir para o perfil do linkedin de Julia">
+              <a class="text-decoration-none" href="https://www.linkedin.com/in/julia-alves-da-silva-3865841b4/" title="Ir para o perfil do linkedin de Julia">
                 <svg 
                   alt="perfil do linkedin de Julia"
                   xmlns="http://www.w3.org/2000/svg" 
@@ -82,7 +81,7 @@
                 </svg>
               </a>
 
-              <a href="https://github.com/julia2001silva" title="Ir para o perfil do github de Julia">
+              <a class="text-decoration-none" href="https://github.com/julia2001silva" title="Ir para o perfil do github de Julia">
                 <svg 
                 alt="perfil do git de Julia"
                   xmlns="http://www.w3.org/2000/svg" 
@@ -114,7 +113,7 @@
             </div>
 
             <div class="card-footer">
-            <a href="" title="Ir para o perfil do facebook de Lucas">
+            <a class="text-decoration-none" href="https://www.facebook.com/lucas.targa.520/" title="Ir para o perfil do facebook de Lucas">
                 <svg 
                   alt="perfil do facebook de Lucas"
                   xmlns="http://www.w3.org/2000/svg" 
@@ -128,7 +127,7 @@
                 </svg> 
               </a>
                 
-              <a href="" title="Ir para o perfil do linkedin de Lucas">
+              <a class="text-decoration-none"  href="https://www.linkedin.com/in/lucas-targa/" title="Ir para o perfil do linkedin de Lucas">
                 <svg 
                   alt="perfil do linkedin de Lucas"
                   xmlns="http://www.w3.org/2000/svg" 
@@ -142,7 +141,7 @@
                 </svg>
               </a>
 
-              <a href="" title="Ir para o perfil do github de Lucas">
+              <a class="text-decoration-none" href="https://github.com/Lucastarga" title="Ir para o perfil do github de Lucas">
                 <svg 
                 alt="perfil do git de Lucas"
                   xmlns="http://www.w3.org/2000/svg" 
@@ -172,7 +171,7 @@
               <img src="./image/wesley.jpeg" class="img-fluid" alt="Foto de Wesley um dos desenvolvedores do site">
             </div>
             <div class="card-footer">
-            <a href="https://www.facebook.com/wesley.honorio.1238" title="Ir para o perfil do facebook de Wesley">
+            <a class="text-decoration-none" href="https://www.facebook.com/wesley.honorio.1238" title="Ir para o perfil do facebook de Wesley">
                 <svg 
                   alt="perfil do facebook de Wesley"
                   xmlns="http://www.w3.org/2000/svg" 
@@ -186,7 +185,7 @@
                 </svg> 
               </a>
                 
-              <a href="https://www.linkedin.com/in/wesley-hon%C3%B3rio-gomes-87b76a142/" title="Ir para o perfil do linkedin de Wesley">
+              <a class="text-decoration-none" href="https://www.linkedin.com/in/wesley-hon%C3%B3rio-gomes-87b76a142/" title="Ir para o perfil do linkedin de Wesley">
                 <svg 
                   alt="perfil do linkedin de Wesley"
                   xmlns="http://www.w3.org/2000/svg" 
@@ -200,7 +199,7 @@
                 </svg>
               </a>
 
-              <a href="https://github.com/WesleyHonorio" title="Ir para o perfil do github de Wesley">
+              <a class="text-decoration-none"  href="https://github.com/WesleyHonorio" title="Ir para o perfil do github de Wesley">
                 <svg 
                 alt="perfil do git de Wesley"
                   xmlns="http://www.w3.org/2000/svg" 

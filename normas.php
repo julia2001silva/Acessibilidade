@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/f81c81ae7b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https: //fonts.googleapis.com/css2? family = Libre + Franklin: wght @ 200 & family = Montserrat: ital, wght @ 1.200 &família = Aberto + Sans: wght @ 300 & display = swap"
-  rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;700&family=M+PLUS+1+Code:wght@300;400;700&family=Montserrat:wght@200;400;500;700&family=Poppins:wght@300;400;500;600;900&display=swap" rel="stylesheet">
     <title>Normas de Uso</title>
 </head>
 
