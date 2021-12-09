@@ -57,5 +57,55 @@ ul{
     max-height: 100vh;
 }
 
+.get-content{
+    position: absolute;
+    left: -999rem;
+}
+
 
 /* **************** fim estilizações lucas ************************ */
+
+/* inicio estilizacoes julia */
+
+
+.body{
+    text-align: justify;
+
+
+}
+
+.btn-primary{
+    background-color: #191970 !important;
+    border:none !important;
+    padding: 5px !important;
+}
+
+#cardum{
+
+    background-color: #008080 !important;
+}
+
+#carddois{
+
+    background-color: #66CDAA !important;
+}
+
+#cardtres{
+
+    background-color: #4682B4 !important;
+}
+
+p{
+    font-family: 'Libre Franklin',  'Montserrat', 'Open Sans', sans-serif;
+    font-size: 0.98em;
+    text-align: justify;
+    
+}
+
+h1,h2,h3,h4,h5{font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold !important;
+}
+
+#normas{
+    width:190px;
+}

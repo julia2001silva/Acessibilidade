@@ -1,24 +1,24 @@
 <div class=" col-12 bg-general">
     <div class="py-3 mt-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Início</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Acessibilidade</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contato</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Normas de uso</a></li>
+            <li class="nav-item"><a href="./index.php" class="nav-link px-2 text-muted">Início</a></li>
+            <li class="nav-item"><a href="./acessibilidade.php" class="nav-link px-2 text-muted">Acessibilidade</a></li>
+            <li class="nav-item"><a href="./quemsomos.php" class="nav-link px-2 text-muted">Sobre</a></li>
+            <li class="nav-item"><a href="./contato.php" class="nav-link px-2 text-muted">Contato</a></li>
+            <li class="nav-item"><a href="./normas.php" class="nav-link px-2 text-muted">Normas de uso</a></li>
         </ul>
 
         <div class="d-flex flex-wrap justify-content-around align-items-center py-3">
             <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                    <img src="./image/logo.png" alt="" width="30" height="30">
+                <a href="./index.php" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="./image/logo.png" alt="logotipo do portal acessibilidade na web" width="30" height="30">
                 </a>
                 <span class="text-muted">© 2021 Unicórnios da discordia</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
-                    <a class="text-muted" href="#">
+                    <a class="text-muted" href="https://www.instagram.com/fatecsr/">
                         <svg 
                             aria-hidden="true" 
                             width="30" 
@@ -40,7 +40,7 @@
                 </li>
 
                 <li class="ms-3">
-                    <a class="text-muted" href="#">
+                    <a class="text-muted" href="https://www.facebook.com/Fatecsr">
                         <svg 
                             aria-hidden="true" 
                             width="30" 

@@ -1,6 +1,6 @@
 <?php $page = basename($_SERVER['PHP_SELF']) ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-general p-3">
-  <a class="navbar-brand" href="#"> <img class="img-fluid rounded mx-auto d-block" src="image/logo.png" alt="logotipo do portal acessibilidade na web"
+  <a class="navbar-brand" href="./index.php"> <img class="img-fluid rounded mx-auto d-block" src="image/logo.png" alt="logotipo do portal acessibilidade na web"
       width="60"></a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navHeader"
     aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,6 +25,7 @@
       <li class="nav-item">
         <a class="nav-link" href="normas.php">Normas de uso</a>
       </li>
+      <li><a class="nav-link get-content" href="#content">Ir para o conteúdo</a></li>
     </ul>
   </div>
 </nav>
