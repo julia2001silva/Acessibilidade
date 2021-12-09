@@ -29,7 +29,7 @@
   <script type="text/javascript" src="bootstrap.min.js"></script>
 
   <header id="content">
-    <img src="./image/banner.png" class=" img-fluid "
+    <img src="./image/banner.webp" class=" img-fluid "
       alt="Você que é programador e quer aprender mais sobre acessibilidade na web, conheça agora as melhores dicas para deixar seu site mais acessivel." />
   </header>
 
@@ -110,7 +110,7 @@
         <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
           <div class="col-xl-6 col-md-6 col-sm-12">
             <div class="card">
-              <img src="image/imagemum.png" class="card-img-top" alt="representação gráfica de html semantico">
+              <img src="./image/imagemum.webp" class="card-img-top" alt="representação gráfica de html semantico">
               <div class="card-body">
                 <h5 class="card-title">Html Semântico</h5>
                 <p class="card-text">É muito importante o uso da semântica HTML que pode ser chamada de POSH ou plain
@@ -121,7 +121,7 @@
           </div>
           <div class="col-xl-6 col-md-6 col-sm-12">
             <div class="card">
-              <img src="image/imagemdois.png" class="card-img-top" alt="representação gráfica de uma página de papel">
+              <img src="./image/imagemdois.webp" class="card-img-top" alt="representação gráfica de uma página de papel">
               <div class="card-body">
                 <h5 class="card-title">Layout de Páginas</h5>
                 <p class="card-text">Antigamente os layouts das páginas eram criados utilizando tabelas HTML, utilizando
@@ -133,7 +133,7 @@
           </div>
           <div class="col-xl-6 col-md-6 col-sm-12">
             <div class="card">
-              <img src="image/imagemtres.png" class="card-img-top" alt="representação gráfica de figuras e fotos">
+              <img src="./image/imagemtres.webp" class="card-img-top" alt="representação gráfica de figuras e fotos">
               <div class="card-body">
                 <h5 class="card-title">Uso de Alt</h5>
                 <p class="card-text">É muito importante usar o elemento alt nas imagens para que as pessoas com
@@ -145,7 +145,7 @@
           </div>
           <div class="col-xl-6 col-md-6 col-sm-12">
             <div class="card">
-              <img src="image/imagemquatro.png" class="card-img-top"
+              <img src="./image/imagemquatro.webp" class="card-img-top"
                 alt="representação gráfica de linhas que representam a linguagem utilizada">
               <div class="card-body">
                 <h5 class="card-title">Uso de linguagem clara</h5>

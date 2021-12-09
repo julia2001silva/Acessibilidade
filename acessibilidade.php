@@ -318,19 +318,19 @@
                                     Vermelho, azul e verde são termos que classificam e distinguem um Matiz dos outros.</p>
 
                                 <div class="col-12 d-flex justify-content-center my-3">
-                                    <img class="img-fluid" src="./image/matiz.png" alt="amostra de matiz com varias cores">
+                                    <img class="img-fluid" src="./image/matiz.webp" alt="amostra de matiz com varias cores">
                                 </div>
 
                                 <p>A saturação se dá pela proporção de quantidade de uma cor em relação à cor cinza. A cor se torna mais saturada quando reduzimos a quantidade de cinza. A saturação é referente à intensidade da cor. Uma cor saturada é muito viva e intensa.</p>
 
                                 <div class="col-12 d-flex justify-content-center my-3">
-                                    <img class="img-fluid" src="./image/saturacao.png" alt="amostra de saturacao com varias cores">
+                                    <img class="img-fluid" src="./image/saturacao.webp" alt="amostra de saturacao com varias cores">
                                 </div>
 
                                 <p>Já a luminosidade é uma propriedade que está ligada a percepção de brilho. Do claro, ao escuro. Aumente a luminosidade de uma cor e ela se aproximará do branco. Diminua e se aproximará do preto.</p>
 
                                 <div class="col-12 d-flex justify-content-center my-3">
-                                    <img class="img-fluid" src="./image/luminosidade.png" alt="amostra de matiz com varias cores">
+                                    <img class="img-fluid" src="./image/luminosidade.webp" alt="amostra de matiz com varias cores">
                                 </div>
                             </div>
                             <a class="get-content" href="#nav-topicos-cores">navegar entre os tópicos da página</a>
